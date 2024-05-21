@@ -1,56 +1,27 @@
 {
-  "users": [
-    {
-      "username": "John.x.Doe",
-      "age": 32,
-      "favourite_music_genre": "Jazz",
-      "preferred_programming_language": "Javascript",
-      "best_frontend_framework": "Vue",
-      "id": 1
+  "players": [
+    { "id": 1, 
+    "name": "鍾子文", 
+    "handicap": 0, 
+    "score": 0, 
+    "gameWon": 0, 
+    "highBreak": 0, 
+    "active": true, 
+    "ballRack": [0,0,0,0,0,0,0,0], 
+    "branch": "TM"
     },
-    {
-      "id": 2,
-      "username": "SniperxXx",
-      "age": 23,
-      "favourite_music_genre": "Rap",
-      "preferred_programming_language": "Python",
-      "best_frontend_framework": "React"
+    { "id": 2, 
+    "name": "黃日洪", 
+    "handicap": 0, 
+    "score": 0, 
+    "gameWon": 0, 
+    "highBreak": 0, 
+    "active": true, 
+    "ballRack": [0,0,0,0,0,0,0,0], 
+    "branch": "TKM"
     }
   ],
-  "polls": [
-    {
-      "question": "Favourite Music Genre?",
-      "options": [
-        "Rock",
-        "Pop",
-        "Country",
-        "Rap",
-        "Jazz",
-        "Hip Hop",
-        "RNB",
-        "None",
-        "Depends"
-      ]
-    },
-    {
-      "question": "Preferred Programming Language?",
-      "options": [
-        "Java",
-        "C",
-        "C++",
-        "C#",
-        "Javascript",
-        "Python",
-        "Kotlin"
-      ]
-    },
-    {
-      "question": "Better Frontend JS Framework?",
-      "options": [
-        "React",
-        "Vue",
-        "Angular"
-      ]
-    }
+  "game": [
+    { "id": 1, "Title": "名將盃2024-屯門站", "TotalGame": 9, "ColorScheme": "gold" }
   ]
 }
